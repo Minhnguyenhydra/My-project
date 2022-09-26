@@ -64,11 +64,11 @@
     <Compile Include="Assets\Game\script\Kunai.cs" />
     <Compile Include="Assets\Game\script\Character.cs" />
     <Compile Include="Assets\Game\script\StateMachine\IdleState.cs" />
+    <Compile Include="Assets\Game\script\AttackArea.cs" />
     <Compile Include="Assets\Game\script\SavePoint.cs" />
     <Compile Include="Assets\Game\script\StateMachine\IState.cs" />
     <Compile Include="Assets\Game\script\Player.cs" />
     <Compile Include="Assets\Game\script\CameraFollow.cs" />
-    <Compile Include="Assets\Game\script\AttackArea.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

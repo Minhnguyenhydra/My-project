@@ -31,7 +31,7 @@ public class Character : MonoBehaviour
         ChangeAnim("die");
         Invoke(nameof(OnDespawn), 2f);
     }
-    protected void ChangeAnim(string animName)// protected => sap xep cac ham ............ hoi lai thay giao
+    protected void ChangeAnim(string animName)// protected => thang con su dung duoc 
     {
         if (currentAnimName != animName)
         {

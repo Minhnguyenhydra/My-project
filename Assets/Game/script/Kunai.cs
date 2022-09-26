@@ -26,7 +26,10 @@ public class Kunai : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+        Debug.Log(collision.gameObject.name);
         if (collision.tag == "Enemy")
+            
         {
             collision.GetComponent<Character>().OnHit(30);
             OnDespawn();
